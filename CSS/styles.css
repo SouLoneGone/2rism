@@ -1,0 +1,566 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    line-height:21px;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h6{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(22, 20, 20, 1);
+}
+
+.wrapper{
+    max-width:1440px;
+    padding: 0 32px;
+    margin:0 auto;
+}
+
+.header{
+    height:800px;
+    background-color:black;
+    background-image: url('./../IMG/Background.svg');
+    background-size:cover;
+    background-position:center;
+    border-radius:0 0 54px 54px;
+    color:white;
+}
+
+.header a{
+    color:white;
+    text-decoration:none;
+}
+
+.navigation{
+    max-width:1240px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    display:flex;
+}
+
+.logo-text{
+    font-size:22px;
+}
+.logo-img{
+    display:flex;
+    padding-bottom:10px;
+}
+.navigation-menu{
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:54px;
+}
+
+.navigation-link a:active, a:hover{
+    opacity:75%;
+}
+
+.user-profile{
+    display:flex;
+    column-gap:8px;
+    align-items:center;
+}
+
+.user-profile-text{
+    font-size:14px;
+    line-height:21px;
+}
+
+.user-profile-name{
+    font-weight: 600;
+}
+.user-profile-greeting{
+    font-weight: 400;
+    color:gray;
+}
+
+.user-profile-avatar{
+    border-radius:50%;
+}
+
+.header-main{
+    margin:0 auto;
+    margin-top:180px;
+}
+
+.Discover{
+    display:flex;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    justify-content:center;
+}
+
+.d-globe{
+    display:flex;
+    margin:0 auto;
+    column-gap:10px;
+    margin-top:55px;
+    background:rgba(123, 97, 255, 1);
+    padding:24px;
+    border-radius:15px;
+    color:white;
+}
+
+.search-bar{
+    display:flex;
+    margin:0 auto;
+    margin-top:184px;
+    justify-content:center;
+
+    color:black;
+
+    background:white;
+    column-gap:100px;
+    border-radius:25px;
+    width:1140px;
+    padding:24px;
+}
+
+.Location{
+    display:flex;
+    column-gap:19px;
+    align-items:center;
+}
+
+.Location-IMG{
+    height: 21px;
+    width: 18px;
+}
+
+.Activity{
+    display:flex;
+    column-gap:19px;
+    align-items:center;
+}
+
+.Activity-IMG{
+    height: 22px;
+    width: 20px;
+}
+
+.Date{
+    display:flex;
+    column-gap:19px;
+    align-items:center;
+}
+
+.Date-IMG{
+    height: 20px;
+    width: 20px;
+}
+
+.Guests{
+    display:flex;
+    column-gap:19px;
+    align-items:center;
+}
+
+.Guests-IMG{
+    height: 21px;
+    width: 21px;
+}
+
+.search_button{
+    background:rgba(123, 97, 255, 1);
+    padding:20px;
+    border-radius:12px;
+}
+
+.main{
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.Popular-destinations-places{
+    display:flex;
+    column-gap:32px;
+    margin-top:32px;
+}
+
+.Destination-title{
+    padding-top:5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(22, 20, 20, 1);
+}
+
+.Destination-Location{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(151, 151, 151, 1);
+}
+
+.Hotels-and-Restaurants{
+    display:flex;
+    margin-top:60px;
+    flex-direction:column;
+}
+
+.Hotels-and-Restaurants-title-btn{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Hotels-and-Restaurants-places{
+    display:flex;
+    column-gap:32px;
+    margin-top:32px;
+}
+
+.view-all-button{
+    color:rgba(82, 67, 194, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    background:#F6F4FF;
+    border-radius: 12px;
+    border:none;
+    padding:10px;
+}
+
+.view-all-button:hover {
+    opacity:75%;
+}
+
+.destinations-text{
+    display:flex;
+    justify-content:space-between;
+}
+.destination-text-mark{
+    display:flex;
+    column-gap:5px;
+}
+
+.Travel{
+    display:flex;
+    margin-top:60px;
+    flex-direction:column;
+}
+
+.Travel-tips-title-btn{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Travel-tips-places{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Village{
+    display:flex;
+    column-gap:32px;
+    margin-top:32px;
+}
+
+.Village-img{
+    height: 380px;
+    width: 320px;
+}
+
+.Village-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Village-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width:320px;
+}
+
+.Brooklyn{
+    display:flex;
+    column-gap:32px;
+    margin-top:32px;
+}
+
+.Brooklyn-img{
+    height: 380px;
+    width: 320px;
+}
+
+.Brooklyn-title{
+    width:320px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Brooklyn-desc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width:320px;
+}
+
+.bottom-text{
+    display:flex;
+    column-gap:25px;
+    margin-top:125px;
+
+}
+
+.Calendar{
+    display:flex;
+    column-gap:5px;
+}
+
+.Author{
+    display:flex;
+    column-gap:5px;
+}
+
+.Comments{
+    display:flex;
+    column-gap:5px;
+}
+
+
+.Activities{
+    display:flex;
+    margin-top:60px;
+    flex-direction:column;
+}
+
+.Activities-title-btn{
+    display:flex;
+    justify-content:space-between;
+}
+
+.Activities-types{
+    display:flex;
+    column-gap:32px;
+    margin-top:32px;
+}
+
+.Activity-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.About-Us{
+    display:flex;
+    margin-top:120px;
+    column-gap:17px;
+    justify-content:space-between;
+}
+
+.About-Us-Text-btn{
+    display:flex;
+    flex-direction:column;
+    margin-top:80px;
+}
+
+.About-Us-Title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.About-Us-desc{
+    height: 160px;
+    width: 556px;
+    left: 0px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top:32px;
+}
+
+.Read-more{
+    margin-top:32px;
+
+    max-width:133px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    color:rgba(82, 67, 194, 1);
+
+    background:#F6F4FF;
+    border-radius: 12px;
+    border:none;
+    padding:10px;
+}
+
+.Read-more:hover {
+    opacity:75%;
+}
+
+.About-Us-img{
+    height: 488px;
+    width: 556px;
+    left: -15px;
+    top: 0px;
+    border-radius: 25px;
+    margin-right:120px;
+}
+
+.footer{
+    background-color:rgba(249, 249, 249, 1);
+    margin-top:120px;
+}
+
+.footer a{
+    text-decoration:none;
+}
+
+.container{
+    max-width:1440px;
+    margin:auto;
+    padding:120px 0px;
+}
+
+.row{
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-col{
+    max-width:354.5px;
+    
+}
+
+.footer-col-desc{
+    margin-top:20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.socials-ul{
+    margin-top:32px;
+    display:flex;
+    column-gap:30px;
+}
+
+.social-ul-el-a-img{
+    height:32px;
+    width:32px;
+}
+
+.footer-col-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom:20px;
+
+}
+
+.footer-li-el{
+    margin-bottom:10px;
+}
+
+.footer-li-el-link{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color:rgba(91, 91, 91, 1);
+    text-align: left;
+}
+
+.footer-li-el:last-child{
+    margin-bottom:0px;
+}
+
+.e-mail{
+    display:flex;
+    column-gap:18px;
+    align-items:center;
+    background:rgba(255, 255, 255, 1);
+    padding:16px 74px 16px 16px;
+    border-radius:20px;
+}
+
+.your-email{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.email-link{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(22, 20, 20, 1);
+
+}
+.mail-send-btn{
+    display:flex;
+    column-gap:30px;
+
+}
+
+.send-btn{
+    background:rgba(123, 97, 255, 1);
+    padding:28px;
+    border-radius:20px;
+}
